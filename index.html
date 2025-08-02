@@ -7,13 +7,19 @@
     <link rel="Stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Header with navigation -->
     <header role="banner">
-
         <nav class="navbar" role="navigation" aria-label="Main navigation">
             <div class="nav-container">
                 <div class="nav-logo">
                     <h1><a href="#home" aria-label="Felicia Sithole - Home">Felicia Sithole</a></h1>
                 </div>
+                <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle mobile menu">
+                <label for="nav-toggle" class="nav-toggle-label">
+                    <span class="bar" aria-hidden="true"></span>
+                    <span class="bar" aria-hidden="true"></span>
+                    <span class="bar" aria-hidden="true"></span>
+                </label>
                 <ul class="nav-menu" role="menubar">
                     <li class="nav-item" role="none">
                         <a href="#home" class="nav-link" role="menuitem" aria-label="Go to home setction">Home</a>
@@ -34,17 +40,16 @@
                         <a href="#contact" class="nav-link" role="menuitem" aria-label="Go to contact section">Contact</a>
                     </li>
                 </ul>
-                <button class="nav-toggle" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="nav-menu">
-                    <span class="bar" aria-hidden="true"></span>
-                    <span class="bar" aria-hidden="true"></span>
-                    <span class="bar" aria-hidden="true"></span>
-                </button>
             </div>
         </nav>
     </header>
 
-    <main>
+    <!-- Main content -->
+    <main id="main-content" role="main">
+        <!-- Home section -->
+        <section id="home" class="hero" role="banner" aria-labelledby="hero-heading">
 
+        </section>
     </main>
 
     <footer>
